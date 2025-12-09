@@ -1,0 +1,13 @@
+[project]
+name = "csa-31-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "keras>=3.0.0",
+    "matplotlib>=3.10.7",
+    "keras-tuner>=1.4.0",
+    "tqdm>=4.67.1",
+    "pygobject>=3.54.5",
+]
