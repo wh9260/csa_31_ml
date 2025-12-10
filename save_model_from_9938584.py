@@ -21,11 +21,12 @@ from pathlib import Path
 # MODEL CONFIGURATION
 # =============================================================================
 
-MODEL_NAME = "lstm_multivariate_classifier"  # Name for saving the model
+MODEL_NAME = "from_9938584"  # Name for saving the model
 
 # Input configuration
 NUM_FEATURES = 5        # Number of time series features (press_flow, spo2, rip_abdomen, rip_thorax, rip_sum)
 TIMESTEPS = 128         # Length of each time series (adjust based on your data)
+
 INPUT_SHAPE = (TIMESTEPS, NUM_FEATURES)
 
 # Output configuration
@@ -39,14 +40,14 @@ print("Building LSTM model for multivariate time series classification...")
 print(f"Input shape: {INPUT_SHAPE} (timesteps={TIMESTEPS}, features={NUM_FEATURES})")
 print(f"Output classes: {NUM_CLASSES}")
 
-model = models.Sequential([
+model = keras.Sequential([
     # --- C1 ---
     layers.Conv2D(
         64, (3, 3),
         activation='relu',
         strides=1,
         padding='same',
-        input_shape=input_shape,
+        input_shape=INPUT_SHAPE,
         name='C1_Conv2D'
     ),
     
