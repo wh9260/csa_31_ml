@@ -6,7 +6,7 @@ Keras model training experiments with the MNIST dataset.
 """
 import keras
 from keras import layers
-from experiment import experiment
+from class_experiment import experiment
 
 
 # =============================================================================

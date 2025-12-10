@@ -1,0 +1,7 @@
+_test.py - demo of experiment using CNN and mist data. Does not used saved model.
+
+_lstm.py - attempt to apply lstm to csa data. Some success.
+
+_hyperband_demo_01.py - expample hyperband application to mist data.
+
+_demo.py - MIST dataset. Uses saved model.

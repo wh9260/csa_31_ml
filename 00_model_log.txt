@@ -4,7 +4,7 @@ save_model_example.py
 
     test file for showing how save_model works.
 
-save_model_lstm.py
+save_model_lstm_01.py
 
     lstm model for 128 by 5 data. some success but limited.
 

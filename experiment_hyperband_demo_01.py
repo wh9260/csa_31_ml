@@ -9,7 +9,7 @@ This demonstrates the complete Hyperband workflow:
 """
 import keras
 import numpy as np
-from experiment_hyperband import experiment_hyperband
+from class_experiment_hyperband import experiment_hyperband
 
 
 # =============================================================================

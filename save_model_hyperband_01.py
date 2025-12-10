@@ -15,7 +15,7 @@ from pathlib import Path
 # CONFIGURATION
 # =============================================================================
 
-MODEL_NAME = "lstm_hyperband_tuner"
+MODEL_NAME = "lstm_hyperband_tuner_01"
 NUM_FEATURES = 5        # Number of time series features
 TIMESTEPS = 128         # Length of time series
 NUM_CLASSES = 3         # Number of output classes

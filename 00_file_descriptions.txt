@@ -1,0 +1,5 @@
+class_experiment.py - class for building an running experiments.
+
+class_experiment_hyperband.py - as above but also contains hyperband tuning.
+
+experiment_framework_template.py - template for experiments

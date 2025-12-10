@@ -1,6 +1,6 @@
 import pickle
 import keras
-from experiment import experiment
+from class_experiment import experiment
 import numpy as np
 import pandas as pd
 from tensorflow.keras.models import load_model
@@ -11,6 +11,8 @@ from tqdm import tqdm
 # Data path and file
 
 test_data_path = "/mnt/1f0bc9d3-e80c-404a-8c1c-98d7b9f51c5c/csa_31_data/04_samples/epds_017_all.pkl"
+
+test_data_path = "/home/wh9260/tmp/csa_31_data/04_samples/epds_017_all.pkl"
 
 types = ['press_flow', 'spo2', 'rip_abdomen', 'rip_thorax', 'rip_sum']
 
